@@ -8,13 +8,14 @@
     tools:context=".MainActivity">
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -37,15 +38,8 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginTop="5dp">
+                android:layout_height="160dp">
 
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/banner" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <LinearLayout
@@ -62,19 +56,45 @@
                         android:id="@+id/editTextText"
                         android:layout_width="wrap_content"
                         android:layout_height="33dp"
-                        android:layout_weight="1"
                         android:layout_marginStart="24dp"
                         android:layout_marginEnd="24dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_background"
                         android:drawableStart="@drawable/icons8_search"
                         android:drawablePadding="8dp"
-                        android:hint="Searching"
                         android:ems="10"
+                        android:hint="Searching"
                         android:inputType="text"
-                        android:textStyle="normal"
-                        android:background="@drawable/edittext_background"
-                        />
+                        android:textStyle="normal" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:menu="@menu/bottom_nav" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
