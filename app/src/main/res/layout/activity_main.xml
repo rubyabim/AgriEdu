@@ -70,7 +70,8 @@
                         android:ems="10"
                         android:hint="Searching"
                         android:inputType="text"
-                        android:textStyle="normal" />
+                        android:textStyle="normal"
+                        android:layout_marginTop="16dp"/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
