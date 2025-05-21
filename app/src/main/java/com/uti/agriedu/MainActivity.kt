@@ -1,5 +1,7 @@
 package com.uti.agriedu
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -7,9 +9,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.uti.agriedu.databinding.ActivityMainBinding
+
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding : ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,12 +26,25 @@ class MainActivity : AppCompatActivity() {
 
         // Listener untuk bottom nav
         binding.bottomNavigationView.setOnItemSelectedListener { item ->
-            when(item.itemId) {
-                R.id.home -> replaceFragment(Home())
-                R.id.ai -> replaceFragment(AI())
-                R.id.setting -> replaceFragment(Setting())
+            val handled = when (item.itemId) {
+                R.id.home -> {
+                    replaceFragment(Home())
+                    true
+                }
+                R.id.ai -> {
+                    // Buka URL OpenAI saat tombol AI diklik
+                    val openaiUrl = "https://chatgpt.com/"
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(openaiUrl))
+                    startActivity(intent)
+                    false // Mencegah item AI terpilih
+                }
+                R.id.setting -> {
+                    replaceFragment(Setting())
+                    true
+                }
+                else -> false
             }
-            true
+            handled
         }
 
         // Handling padding untuk status/navigation bar
@@ -40,9 +56,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun replaceFragment(fragment: Fragment) {
-        val fragmentManager = supportFragmentManager
-        val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.frame_layout, fragment)
-        fragmentTransaction.commit()
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.frame_layout, fragment)
+            .commit()
     }
 }
