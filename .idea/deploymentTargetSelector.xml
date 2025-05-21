@@ -4,10 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-05-21T11:54:17.486934300Z">
+        <DropdownSelection timestamp="2025-05-21T09:54:45.778581400Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\siapa\.android\avd\Pixel_7_API_27.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\siapa\.android\avd\Medium_Phone.avd" />
             </handle>
           </Target>
         </DropdownSelection>
@@ -18,7 +18,7 @@
       </SelectionState>
       <SelectionState runConfigName="MainActivity (1)">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-05-21T11:54:07.726984400Z">
+        <DropdownSelection timestamp="2025-05-21T10:08:14.366909900Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\siapa\.android\avd\Pixel_7_API_27.avd" />
