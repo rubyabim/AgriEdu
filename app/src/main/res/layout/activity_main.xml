@@ -37,8 +37,15 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="160dp">
+                android:layout_height="170dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="5dp">
 
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/banner" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <LinearLayout
