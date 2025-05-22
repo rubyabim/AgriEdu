@@ -6,6 +6,9 @@ plugins {
 android {
     namespace = "com.uti.agriedu"
     compileSdk = 35
+    viewBinding {
+        enable = true
+    }
 
     defaultConfig {
         applicationId = "com.uti.agriedu"
