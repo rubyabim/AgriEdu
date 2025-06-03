@@ -5,21 +5,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.uti.agriedu.databinding.FragmentHomeBinding
-import com.uti.agriedu.databinding.FragmentPupukBinding
-import com.uti.agriedu.databinding.FragmentTanamanBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [Home.newInstance] factory method to
- * create an instance of this fragment.
- */
-class Home : Fragment() {
+
+class PupukFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -36,18 +29,8 @@ class Home : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentHomeBinding.inflate(layoutInflater)
-
-        binding.buttontanaman.setOnClickListener {
-            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, TanamanFragment()).commit()
-        }
-        binding.buttonpupuk.setOnClickListener {
-            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PupukFragment()).commit()
-        }
-
-
         // Inflate the layout for this fragment
-        return binding.root
+        return inflater.inflate(R.layout.fragment_pupuk, container, false)
     }
 
     companion object {
@@ -57,12 +40,12 @@ class Home : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment Home.
+         * @return A new instance of fragment PupukFragment.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            Home().apply {
+            PupukFragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)
