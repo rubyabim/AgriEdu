@@ -38,6 +38,15 @@ class HamaFragment : Fragment() {
         binding.tombolKembali.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, Home()).commit()
         }
+        binding.HamaKeong.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, FragmentHamaKeong()).commit()
+        }
+        binding.HamaTikus.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, FragmentHamaTikus()).commit()
+        }
+        binding.HamaWalang.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, FragmentHamaWalang()).commit()
+        }
 
 
         return binding.root

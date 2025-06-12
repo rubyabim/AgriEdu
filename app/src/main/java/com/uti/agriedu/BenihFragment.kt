@@ -38,6 +38,15 @@ class BenihFragment : Fragment() {
         binding.tombolKembali.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, Home()).commit()
         }
+        binding.BenihSuper.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, BenihSuper()).commit()
+        }
+        binding.BenihPrima.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, BenihPrima()).commit()
+        }
+        binding.BenihSaprotan.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, BenihSaprotan()).commit()
+        }
 
 
         return binding.root
