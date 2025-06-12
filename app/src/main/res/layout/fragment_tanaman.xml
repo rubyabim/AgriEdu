@@ -87,7 +87,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView7"
+                    android:id="@+id/aromatic"
                     android:layout_width="390dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"

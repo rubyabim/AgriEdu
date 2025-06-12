@@ -44,6 +44,9 @@ class TanamanFragment : Fragment() {
         binding.Japonica.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, JaponicaFragment()).commit()
         }
+        binding.aromatic.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, AromaticFragment()).commit()
+        }
 
 
         return binding.root
