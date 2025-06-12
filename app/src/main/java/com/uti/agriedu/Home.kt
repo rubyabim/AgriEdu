@@ -53,6 +53,12 @@ class Home : Fragment() {
         binding.buttonbenih.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, BenihFragment()).commit()
         }
+        binding.buttontanaman.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, TanamanFragment()).commit()
+        }
+
+
+
 
 
         // Inflate the layout for this fragment

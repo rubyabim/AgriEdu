@@ -38,6 +38,9 @@ class TanamanFragment : Fragment() {
         binding.tombolKembali.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, Home()).commit()
         }
+        binding.ketan.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, KetanFragment()).commit()
+        }
 
 
         return binding.root
