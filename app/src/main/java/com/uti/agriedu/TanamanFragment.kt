@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.uti.agriedu.databinding.FragmentPupukBinding
 import com.uti.agriedu.databinding.FragmentTanamanBinding
 
 // TODO: Rename parameter arguments, choose names that match
@@ -40,7 +39,7 @@ class TanamanFragment : Fragment() {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, Home()).commit()
         }
 
-        // Inflate the layout for this fragment
+
         return binding.root
     }
 
