@@ -49,6 +49,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/ketan"
                     android:layout_width="390dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"
@@ -67,7 +68,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/HamaTikus"
+                    android:id="@+id/Japonica"
                     android:layout_width="390dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"
@@ -86,7 +87,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/HamaWalang"
+                    android:id="@+id/aromatic"
                     android:layout_width="390dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"
