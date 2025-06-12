@@ -41,6 +41,9 @@ class TanamanFragment : Fragment() {
         binding.ketan.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, KetanFragment()).commit()
         }
+        binding.Japonica.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, JaponicaFragment()).commit()
+        }
 
 
         return binding.root

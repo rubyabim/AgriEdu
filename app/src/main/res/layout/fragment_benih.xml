@@ -67,7 +67,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView5"
+                    android:id="@+id/Japonica"
                     android:layout_width="390dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"
