@@ -127,6 +127,26 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <TextView
+                    android:id="@+id/DetailKeunggulanPlatinum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Padiku Platinum adalah benih padi unggulan dari PT Sang Hyang Seri yang dirancang khusus untuk memberikan hasil panen maksimal dengan kualitas tanaman yang lebih tahan terhadap berbagai kondisi lingkungan. Keunggulan utama dari benih ini terletak pada daya tumbuh yang tinggi, ketahanan terhadap penyakit seperti hawar daun bakteri, blas, dan wereng, serta adaptasi yang baik terhadap berbagai jenis tanah dan cuaca. Selain itu, varietas dalam seri Padiku Platinum—seperti Inpari 42, Inpari Nutri Zinc, dan Mekongga—memiliki potensi hasil panen tinggi, berkisar antara 9 hingga 10 ton per hektare. Khusus untuk Inpari Nutri Zinc, benih ini juga diperkaya dengan kandungan seng (zinc) yang lebih tinggi sekitar 25% dibanding varietas biasa, sehingga mendukung program ketahanan pangan dan gizi. Benih ini cocok untuk petani yang menginginkan produktivitas tinggi, kualitas gabah unggul, dan daya tahan tanaman yang kuat sepanjang musim tanam."
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
 
