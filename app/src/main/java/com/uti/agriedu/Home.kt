@@ -6,10 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.uti.agriedu.databinding.FragmentHomeBinding
-import com.uti.agriedu.databinding.FragmentPupukBinding
-import com.uti.agriedu.databinding.FragmentHamaBinding
-import com.uti.agriedu.databinding.FragmentTanamanBinding
-import com.uti.agriedu.databinding.FragmentBenihBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -46,7 +42,6 @@ class Home : Fragment() {
         binding.buttonpupuk.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PupukFragment()).commit()
         }
-
         binding.buttonhama.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, HamaFragment()).commit()
         }
