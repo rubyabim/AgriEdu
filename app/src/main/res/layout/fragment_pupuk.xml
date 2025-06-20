@@ -146,7 +146,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/urea"
+                    android:id="@+id/padivitd"
                     android:layout_width="390dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"
