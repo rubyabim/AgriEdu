@@ -128,6 +128,26 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Pupuk urea adalah pupuk kimia yang mengandung nitrogen (N) tinggi, yaitu sekitar 46%, yang berfungsi untuk merangsang pertumbuhan daun dan batang tanaman, terutama pada fase awal pertumbuhan. Keunggulan pupuk ini antara lain mudah larut dalam air sehingga cepat diserap oleh tanaman, efektif meningkatkan pertumbuhan vegetatif, cocok untuk berbagai jenis tanaman seperti padi, jagung, sayuran, dan tanaman perkebunan, serta memiliki harga yang relatif terjangkau dibanding pupuk nitrogen lainnya. "
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
