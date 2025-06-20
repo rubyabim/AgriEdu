@@ -85,6 +85,27 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Pupuk NPK 15-15-15 adalah pupuk majemuk yang mengandung tiga unsur hara utama dalam jumlah seimbang, yaitu nitrogen (N), fosfor (P), dan kalium (K), masing-masing sebanyak 15%. Nitrogen berfungsi untuk merangsang pertumbuhan daun dan batang, fosfor membantu pembentukan akar dan bunga, serta kalium memperkuat tanaman dan meningkatkan kualitas buah. Karena komposisinya seimbang, pupuk ini cocok digunakan pada semua fase pertumbuhan tanaman—dari fase vegetatif hingga generatif. Pupuk ini juga dapat diaplikasikan pada berbagai jenis tanaman, seperti padi, jagung, sayuran, buah-buahan, dan tanaman hias."
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
