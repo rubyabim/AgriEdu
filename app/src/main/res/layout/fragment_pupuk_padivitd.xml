@@ -85,6 +85,27 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Padivit-D adalah pupuk cair majemuk yang mengandung unsur hara makro dan mikro lengkap, dirancang untuk meningkatkan pertumbuhan tanaman secara cepat dan efisien. Pupuk ini diserap melalui daun (aplikasi foliar) dan bermanfaat dalam mempercepat proses fotosintesis, memperkuat ketahanan tanaman, serta meningkatkan hasil dan kualitas panen. Padivit-D cocok digunakan pada berbagai jenis tanaman, termasuk sayuran, buah-buahan, dan tanaman hortikultura lainnya. "
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
