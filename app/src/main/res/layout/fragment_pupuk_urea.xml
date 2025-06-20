@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pupuk_npk15">
+    tools:context=".pupukurea">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="NPK15"
+            android:text="Urea"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -56,7 +56,7 @@
                     android:layout_marginBottom="12dp"
                     android:background="@color/white"
                     android:elevation="16dp"
-                    android:src="@drawable/npk15sendiri"
+                    android:src="@drawable/ureasendiri"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -75,7 +75,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:layout_marginEnd="24dp"
-                    android:text="Pengertian NPK15"
+                    android:text="Pengertian Urea"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -98,49 +98,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:layout_marginEnd="24dp"
-                    android:text="Pupuk NPK 15-15-15 adalah pupuk majemuk yang mengandung tiga unsur hara utama dalam jumlah seimbang, yaitu nitrogen (N), fosfor (P), dan kalium (K), masing-masing sebanyak 15%. Nitrogen berfungsi untuk merangsang pertumbuhan daun dan batang, fosfor membantu pembentukan akar dan bunga, serta kalium memperkuat tanaman dan meningkatkan kualitas buah. Karena komposisinya seimbang, pupuk ini cocok digunakan pada semua fase pertumbuhan tanaman—dari fase vegetatif hingga generatif. Pupuk ini juga dapat diaplikasikan pada berbagai jenis tanaman, seperti padi, jagung, sayuran, buah-buahan, dan tanaman hias."
-                    android:textAlignment="center"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginEnd="24dp">
-
-                <TextView
-                    android:id="@+id/textView7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="24dp"
-                    android:layout_marginEnd="24dp"
-                    android:text="Keunggulan NPK15"
-                    android:textAlignment="center"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginEnd="24dp">
-
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="24dp"
-                    android:layout_marginEnd="24dp"
-                    android:text="Pupuk NPK 15-15-15 memiliki sejumlah keunggulan, antara lain kandungan unsur hara yang seimbang (15% nitrogen, fosfor, dan kalium) sehingga mampu mendukung pertumbuhan daun, akar, dan buah secara optimal. Pupuk ini cocok digunakan di semua tahap pertumbuhan tanaman, mulai dari awal tanam hingga masa berbunga dan berbuah. Selain itu, penggunaannya dapat meningkatkan hasil dan kualitas panen, memperkuat sistem perakaran, serta membantu tanaman lebih tahan terhadap hama dan penyakit. Pupuk ini juga larut dengan baik dan mudah diserap oleh tanaman, serta dapat diaplikasikan pada berbagai jenis tanaman seperti padi, jagung, sayuran, buah-buahan, dan tanaman hias. "
+                    android:text="Urea adalah pupuk kimia yang mengandung nitrogen (N) tinggi, sekitar 46%, yang berfungsi untuk merangsang pertumbuhan daun dan batang pada tanaman. Pupuk ini berbentuk butiran putih dan mudah larut dalam air, sehingga cepat diserap oleh tanaman. Urea sangat cocok digunakan pada fase awal pertumbuhan tanaman untuk meningkatkan pertumbuhan vegetatif."
                     android:textAlignment="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
