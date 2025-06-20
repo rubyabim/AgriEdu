@@ -49,6 +49,9 @@ class PupukFragment : Fragment() {
         binding.urea.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, pupukurea()).commit()
         }
+        binding.padivitd.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, pupukpadivitdFragment()).commit()
+        }
         // Inflate the layout for this fragment
         return binding.root
     }
