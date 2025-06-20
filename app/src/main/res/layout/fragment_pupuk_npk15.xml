@@ -128,6 +128,26 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Pupuk NPK 15-15-15 memiliki sejumlah keunggulan, antara lain kandungan unsur hara yang seimbang (15% nitrogen, fosfor, dan kalium) sehingga mampu mendukung pertumbuhan daun, akar, dan buah secara optimal. Pupuk ini cocok digunakan di semua tahap pertumbuhan tanaman, mulai dari awal tanam hingga masa berbunga dan berbuah. Selain itu, penggunaannya dapat meningkatkan hasil dan kualitas panen, memperkuat sistem perakaran, serta membantu tanaman lebih tahan terhadap hama dan penyakit. Pupuk ini juga larut dengan baik dan mudah diserap oleh tanaman, serta dapat diaplikasikan pada berbagai jenis tanaman seperti padi, jagung, sayuran, buah-buahan, dan tanaman hias. "
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
