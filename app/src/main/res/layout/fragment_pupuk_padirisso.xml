@@ -128,6 +128,26 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Keunggulan padi Risso antara lain tahan terhadap kondisi lahan kering atau tadah hujan, memiliki daya adaptasi yang baik di berbagai jenis tanah, dan cukup tahan terhadap serangan hama serta penyakit. Selain itu, padi ini menghasilkan beras yang pulen dan enak, disukai oleh konsumen, serta memiliki nilai jual yang cukup baik di pasaran. Kemampuannya bertahan di lahan marginal membuatnya cocok untuk daerah dengan keterbatasan irigasi. "
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
