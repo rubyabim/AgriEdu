@@ -87,6 +87,26 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
+            <!-- Isi deskripsi -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:id="@+id/deskripsipadiBuana"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Padi Buana adalah salah satu varietas padi unggul yang dikembangkan untuk meningkatkan produktivitas pertanian. Varietas ini umumnya memiliki ketahanan terhadap hama dan penyakit tertentu, serta mampu tumbuh baik di berbagai kondisi lahan. Padi Buana dikenal dengan hasil panen yang stabil dan kualitas gabah yang baik, sehingga sering dipilih oleh petani sebagai salah satu alternatif dalam budidaya padi modern."
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
 
         </LinearLayout>
     </ScrollView>
