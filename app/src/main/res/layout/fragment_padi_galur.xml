@@ -78,7 +78,7 @@
                     android:id="@+id/pengertianPadiBuana"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pengertian Padi Buana"
+                    android:text="Pengertian Padi Galur"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -102,6 +102,28 @@
                     android:layout_marginTop="12dp"
                     android:text="Padi Buana adalah salah satu varietas padi unggul yang dikembangkan untuk meningkatkan produktivitas pertanian. Varietas ini umumnya memiliki ketahanan terhadap hama dan penyakit tertentu, serta mampu tumbuh baik di berbagai kondisi lahan. Padi Buana dikenal dengan hasil panen yang stabil dan kualitas gabah yang baik, sehingga sering dipilih oleh petani sebagai salah satu alternatif dalam budidaya padi modern."
                     android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+                <!--Keunggulan padi merah Text-->
+                <TextView
+                    android:id="@+id/KeunggulanPadiGalur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Keunggulan Padi Galur"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
