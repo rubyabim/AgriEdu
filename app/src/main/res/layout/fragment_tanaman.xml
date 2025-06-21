@@ -108,7 +108,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView5"
+                    android:id="@+id/Merah"
                     android:layout_width="390dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"
@@ -127,7 +127,26 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/action_image"
+                    android:id="@+id/Galur"
+                    android:layout_width="390dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@color/white"
+                    android:elevation="16dp"
+                    android:src="@drawable/padi_cakra_buana"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/Inari"
                     android:layout_width="390dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"
@@ -138,7 +157,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
