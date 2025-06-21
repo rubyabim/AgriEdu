@@ -55,6 +55,9 @@ class PupukFragment : Fragment() {
         binding.padirisso.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PupukPadiRissoFragment()).commit()
         }
+        binding.sppadikuning.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PupukSPPadiKuningFragment()).commit()
+        }
         // Inflate the layout for this fragment
         return binding.root
     }
