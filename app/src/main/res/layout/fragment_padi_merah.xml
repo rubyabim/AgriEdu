@@ -51,14 +51,13 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/Padiinari46"
                     android:layout_width="390dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginBottom="12dp"
                     android:background="@color/white"
                     android:elevation="16dp"
-                    android:src="@drawable/padi"
+                    android:src="@drawable/padi_merah"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
