@@ -94,7 +94,7 @@
                 android:layout_marginBottom="24dp">
 
                 <TextView
-                    android:id="@+id/DetailPlatinum"
+                    android:id="@+id/deskripsipadimerah"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="Padi merah adalah jenis varietas padi yang memiliki bulir berwarna merah kecokelatan karena mengandung antosianin dan serat tinggi. Padi ini dikenal lebih bergizi dibandingkan padi putih karena kaya akan antioksidan, vitamin B kompleks, zat besi, dan magnesium. Selain bermanfaat untuk kesehatan, padi merah juga sering dipilih oleh masyarakat yang menjalani pola makan sehat atau diet."
@@ -104,6 +104,28 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="12dp" />
             </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+                <!--Keunggulan padi merah Text-->
+                <TextView
+                    android:id="@+id/Keunggulanpadimerah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Keunggulan Padi Merah"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </ScrollView>
 
