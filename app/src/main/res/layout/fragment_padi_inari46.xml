@@ -57,7 +57,7 @@
                     android:layout_marginBottom="12dp"
                     android:background="@color/white"
                     android:elevation="16dp"
-                    android:src="@drawable/padi_inari_46_gsr_tdah"
+                    android:src="@drawable/padiinari46"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
