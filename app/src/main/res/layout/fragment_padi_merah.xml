@@ -2,6 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PadiMerahFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PadiMerahFragment">
@@ -97,13 +98,14 @@
                     android:id="@+id/deskripsipadimerah"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
                     android:text="Padi merah adalah jenis varietas padi yang memiliki bulir berwarna merah kecokelatan karena mengandung antosianin dan serat tinggi. Padi ini dikenal lebih bergizi dibandingkan padi putih karena kaya akan antioksidan, vitamin B kompleks, zat besi, dan magnesium. Selain bermanfaat untuk kesehatan, padi merah juga sering dipilih oleh masyarakat yang menjalani pola makan sehat atau diet."
                     android:textAlignment="center"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginTop="12dp" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

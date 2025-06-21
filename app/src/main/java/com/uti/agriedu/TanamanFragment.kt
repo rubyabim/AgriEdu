@@ -47,6 +47,10 @@ class TanamanFragment : Fragment() {
         binding.aromatic.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, AromaticFragment()).commit()
         }
+        binding.merah.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PadiMerahFragment()).commit()
+        }
+
 
 
         return binding.root
