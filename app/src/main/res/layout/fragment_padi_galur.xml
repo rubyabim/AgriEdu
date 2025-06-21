@@ -129,6 +129,26 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <TextView
+                    android:id="@+id/DetailKeunggulanpadiGalur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Padi Galur merupakan hasil pemuliaan yang memiliki sejumlah keunggulan, seperti potensi hasil yang tinggi, ketahanan terhadap hama dan penyakit, serta kemampuan beradaptasi di berbagai kondisi lahan. Selain itu, padi ini umumnya memiliki umur tanam yang lebih singkat (genjah) sehingga mempercepat masa panen, serta menghasilkan beras dengan kualitas yang baik dari segi tekstur, aroma, dan kadar amilosa. Keunggulan-keunggulan ini menjadikan padi galur sebagai kandidat kuat untuk dikembangkan lebih lanjut sebelum dilepas sebagai varietas unggul resmi."
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
 
         </LinearLayout>
     </ScrollView>
