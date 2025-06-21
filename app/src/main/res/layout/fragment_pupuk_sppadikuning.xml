@@ -85,6 +85,27 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Pupuk SP-27 adalah pupuk tunggal yang mengandung fosfor (P₂O₅) sebesar 27% dan digunakan untuk merangsang pertumbuhan akar, memperkuat batang, serta mempercepat pematangan tanaman. Pada budidaya padi kuning, SP-27 digunakan sebagai pupuk dasar karena membantu memperkuat pertumbuhan awal tanaman dan meningkatkan efisiensi penyerapan nutrisi lainnya. Pupuk ini biasanya diberikan saat pengolahan tanah atau beberapa hari setelah tanam, dan sering dikombinasikan dengan pupuk lain seperti urea dan KCl agar unsur hara tercukupi secara seimbang. "
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
