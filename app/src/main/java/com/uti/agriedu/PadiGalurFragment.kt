@@ -36,7 +36,7 @@ class PadiGalurFragment : Fragment() {
         savedInstanceState: Bundle?
     ):View? {val binding = FragmentPadiGalurBinding.inflate(layoutInflater)
         binding.tombolKembali.setOnClickListener {
-            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PupukFragment()).commit()
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PadiGalurFragment()).commit()
         }
         return binding.root
     }
