@@ -90,6 +90,25 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
+            <!-- Isi deskripsi -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:id="@+id/deskripsipadiBuana"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Padi Bengawan adalah salah satu varietas padi unggul yang dikembangkan di Indonesia, dikenal karena ketahanannya terhadap hama dan penyakit tertentu serta memiliki produktivitas hasil yang tinggi. Varietas ini cocok ditanam di lahan sawah irigasi dengan siklus tanam pendek dan mampu beradaptasi dengan berbagai kondisi lingkungan, sehingga sering dipilih oleh petani untuk meningkatkan hasil panen secara efisien."
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
     </ScrollView>
