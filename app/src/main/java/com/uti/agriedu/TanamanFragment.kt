@@ -56,6 +56,10 @@ class TanamanFragment : Fragment() {
         binding.buana.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PadiGalurFragment()).commit()
         }
+        binding.bengawan.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PadiBengawanFragment()).commit()
+        }
+
 
 
 
