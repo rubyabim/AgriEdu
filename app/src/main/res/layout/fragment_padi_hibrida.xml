@@ -46,7 +46,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- Gambar atau konten lainnya bisa ditambahkan di sini -->
 
         </LinearLayout>
     </ScrollView>
