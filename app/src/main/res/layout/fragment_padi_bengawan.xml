@@ -99,7 +99,7 @@
                 android:layout_marginBottom="24dp">
 
                 <TextView
-                    android:id="@+id/deskripsipadiBuana"
+                    android:id="@+id/deskripsipadbengawan"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
