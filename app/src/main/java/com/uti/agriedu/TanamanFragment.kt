@@ -59,6 +59,9 @@ class TanamanFragment : Fragment() {
         binding.bengawan.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PadiBengawanFragment()).commit()
         }
+        binding.Hibrida.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PadiHibridaFragment()).commit()
+        }
 
 
 

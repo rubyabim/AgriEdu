@@ -184,7 +184,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/hibride"
+                    android:id="@+id/hibrida"
                     android:layout_width="390dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"
