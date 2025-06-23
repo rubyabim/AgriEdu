@@ -91,6 +91,19 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
                 android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Padi hibrida adalah jenis padi yang dihasilkan dari persilangan dua varietas padi unggul yang memiliki sifat genetik berbeda, dengan tujuan untuk menghasilkan keturunan yang memiliki keunggulan lebih tinggi, seperti hasil panen yang lebih banyak, pertumbuhan lebih cepat, serta ketahanan terhadap hama dan penyakit. Padi hibrida biasanya dikembangkan melalui teknologi pemuliaan tanaman dan sangat cocok digunakan dalam sistem pertanian intensif untuk meningkatkan produktivitas lahan."
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
