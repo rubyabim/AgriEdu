@@ -132,6 +132,18 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp">
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Padi hibrida memiliki sejumlah keunggulan, antara lain hasil panen yang lebih tinggi dibandingkan varietas biasa, pertumbuhan tanaman yang lebih cepat, serta ketahanan yang lebih baik terhadap hama dan penyakit. Selain itu, padi ini juga lebih efisien dalam penggunaan pupuk dan air, sehingga sangat cocok untuk budidaya intensif dan skala besar guna meningkatkan produktivitas pertanian."
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
