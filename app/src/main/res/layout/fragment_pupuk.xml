@@ -90,7 +90,7 @@
 
                 <ImageView
                     android:id="@+id/saprodap"
-                    android:layout_width="390dp"
+                    android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginBottom="12dp"
