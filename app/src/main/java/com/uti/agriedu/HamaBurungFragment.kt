@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.uti.agriedu.databinding.FragmentHamaBurungBinding
+import com.uti.agriedu.databinding.FragmentHamaWalangBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -32,11 +34,14 @@ class HamaBurungFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ):  View? {
+        val binding = FragmentHamaBurungBinding.inflate(layoutInflater)
+        binding.tombolKembali.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, HamaFragment()).commit()
+        }
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_hama_burung, container, false)
+        return binding.root
     }
-
     companion object {
         /**
          * Use this factory method to create a new instance of
