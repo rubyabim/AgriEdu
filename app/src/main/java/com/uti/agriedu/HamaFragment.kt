@@ -40,6 +40,9 @@ class HamaFragment : Fragment() {
         binding.HamaWalang.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, FragmentHamaWalang()).commit()
         }
+        binding.HamaBurung.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, HamaBurungFragment()).commit()
+        }
 
 
         return binding.root
