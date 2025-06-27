@@ -50,6 +50,10 @@ class TanamanFragment : Fragment() {
         binding.merah.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PadiMerahFragment()).commit()
         }
+        binding.Galur.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout,
+                PadiGalurFragment()).commit()
+        }
         binding.inari.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PadiInari46Fragment()).commit()
         }
