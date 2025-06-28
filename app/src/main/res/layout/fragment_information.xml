@@ -12,16 +12,24 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp">
 
+        <ImageView
+            android:id="@+id/tombol_kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/keyboard_backspace_24dp_000000_fill0_wght400_grad0_opsz24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="About"
-            android:textAlignment="center"
             android:textSize="20sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -35,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="50dp"
             android:layout_marginEnd="24dp"
             android:text="AgriEdu adalah penyedia aplikasi pertanian mobile yang bertujuan memberdayakan petani Indonesia melalui teknologi dengan menyediakan informasi pertanian yang mudah diakses, seperti artikel edukatif  Kami percaya bahwa peningkatan pengetahuan petani melalui digitalisasi dapat mendorong pertanian yang lebih produktif, berkelanjutan, dan modern."
             android:textAlignment="center"
