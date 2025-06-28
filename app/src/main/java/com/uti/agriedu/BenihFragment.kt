@@ -45,6 +45,9 @@ class BenihFragment : Fragment() {
         binding.BenihPlatinum.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, BenihPlatinumFragment()).commit()
         }
+        binding.BenihUnggul.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, BenihUnggul()).commit()
+        }
 
 
         return binding.root
