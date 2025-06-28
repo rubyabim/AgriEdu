@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.ProfilingRequest
 import com.uti.agriedu.databinding.FragmentSettingBinding
 
 
@@ -38,6 +39,9 @@ class Setting : Fragment() {
         val binding = FragmentSettingBinding.inflate(layoutInflater)
         binding.ButtonInformasi.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, InformationFragment()).commit()
+        }
+        binding.ButtonProfil.setOnClickListener {
+            (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, AboutUsFragment()).commit()
         }
         // Inflate the layout for this fragment
         return binding.root
