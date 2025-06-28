@@ -43,7 +43,7 @@ class HamaFragment : Fragment() {
         binding.HamaBurung.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, HamaBurungFragment()).commit()
         }
-        binding.PenggerekBatang.setOnClickListener {
+        binding.PenggerekBatang .setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, PenggerekBatang()).commit()
         }
         
