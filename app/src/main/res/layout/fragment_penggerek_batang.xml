@@ -97,7 +97,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:layout_marginEnd="24dp"
-                    android:text="Hama penggerek batang padi merupakan salah satu hama utama yang menyebabkan kerusakan pada tanaman padi. Siklus hidup hama ini dimulai dengan telur yang diletakkan oleh kupu-kupu atau ngengat di daun-daun tanaman padi. Meskipun kupu-kupu atau ngengatnya sendiri tidak berbahaya bagi tanaman padi, namun telur yang mereka tinggalkan perlu dipantau karena merupakan awal dari serangan hama penggerek batang."
+                    android:text="Hama penggerek batang padi merupakan salah satu hama utama yang menyebabkan kerusakan pada tanaman padi. Siklus hidup hama ini dimulai dengan telur yang diletakkan oleh kupu-kupu atau ngengat di daun-daun tanaman padi."
                     android:textAlignment="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -121,6 +121,26 @@
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <TextView
+                    android:id="@+id/DetailDampakHamaPenggerek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="Serangan hama penggerek batang terjadi pada semua tahapan pertumbuhan tanaman padi, mulai dari fase persemaian hingga menjelang panen. Gejala serangan ini terbagi menjadi dua fase utama, yaitu sundep dan beluk. Sundep terjadi sebelum padi mulai berbunga, ditandai dengan daun padi muda yang menguning, tergulung, kemudian mengering dan mati. Sedangkan beluk terjadi setelah malai keluar, dimana bunga atau buah padi yang baru muncul akan berwarna putih, berguguran, dan gabahnya menjadi kosong (gabuk)."
+                    android:textAlignment="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
