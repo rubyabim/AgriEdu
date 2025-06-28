@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.uti.agriedu.databinding.FragmentBenihPrimaBinding
+import com.uti.agriedu.databinding.FragmentBenihUnggulBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,7 +34,7 @@ class BenihUnggul : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentBenihPrimaBinding.inflate(layoutInflater)
+        val binding = FragmentBenihUnggulBinding.inflate(layoutInflater)
         binding.tombolKembali.setOnClickListener {
             (requireActivity() as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.frame_layout, BenihFragment()).commit()
         }
